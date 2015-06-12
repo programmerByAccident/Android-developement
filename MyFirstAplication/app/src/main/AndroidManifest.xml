@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.george.myfirstaplication">
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@drawable/sport_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+       >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TrainingActivity"
+            android:label="@string/title_activity_training"
+            android:windowSoftInputMode="adjustNothing">
+        </activity>
+
+        <activity android:name=".FoodActivity"
+                  android:label="FoodActivity"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".PicturesClass"
+            android:label="PicturesClass"></activity>
+
+        <activity android:name=".AbdomeneAparat"
+            android:label="AbdomeneAparat"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".AbdomeneInversate"
+            android:label="AbdomeneInversate"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".Abdomente"
+            android:label="Abdomente"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".Genoflexiuni"
+            android:label="Genoflexiuni"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".Presa"
+            android:label="Presa"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".PhotoConnntainer"
+            android:label="Presa"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".Lunge"
+            android:label="Lunge"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".PresaUmeri"
+            android:label="PresaUmeri"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".FluturariAparat"
+            android:label="FluturariAparat"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".FluturariGantere"
+            android:label="FluturariGantere"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".Ramat"
+            android:label="Ramat"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".Indreptari"
+            android:label="Indreptari"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".Tractiuni"
+            android:label="Tractiuni"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".ImpinsDeclinat"
+            android:label="ImpinsDeclinat"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".ImpinsInclinat"
+            android:label="ImpinsInclinat"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".ImpinsOrizontal"
+        android:label="ImpinsOrizontal"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".FlexiiClasic"
+            android:label="FlexiiClassic"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".FlexiiHammer"
+            android:label="FlexiiHammer"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".FlexiiZ"
+            android:label="FlexiiZ"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity android:name=".WeightActivity"
+            android:label="FlexiiZ"
+            android:windowSoftInputMode="adjustNothing"></activity>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/foot_tab_1"
+    android:background="@drawable/lllllllllllllllllllllllllllllllllll">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/totalCalories"
+        android:layout_marginRight="106dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginTop="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:id="@+id/proteinGoal"
+        android:layout_below="@+id/totalCalories"
+        android:layout_alignLeft="@+id/totalCalories"
+        android:layout_alignStart="@+id/totalCalories" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/carbohydratesTarget"
+        android:layout_below="@+id/proteinGoal"
+        android:layout_alignLeft="@+id/proteinGoal"
+        android:layout_alignStart="@+id/proteinGoal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fatsLimit"
+        android:layout_below="@+id/carbohydratesTarget"
+        android:layout_alignLeft="@+id/carbohydratesTarget"
+        android:layout_alignStart="@+id/carbohydratesTarget" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/username"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/fatsLimit"
+        android:layout_alignRight="@+id/searchUser"
+        android:layout_alignEnd="@+id/searchUser" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/foodname"
+        android:layout_marginBottom="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/searchUser"
+        android:layout_alignEnd="@+id/searchUser" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="31dp"
+        android:id="@+id/searchUser"
+        android:background="@drawable/magnifier"
+        android:layout_marginStart="31dp"
+        android:layout_alignTop="@+id/username"
+        android:layout_toRightOf="@+id/fatsLimit"
+        android:layout_toEndOf="@+id/fatsLimit" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/searchFood"
+        android:background="@drawable/magnifier"
+        android:layout_alignBottom="@+id/foodname"
+        android:layout_toRightOf="@+id/searchUser"
+        android:layout_toEndOf="@+id/searchUser" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/weightPrinter"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_below="@+id/username"
+        android:layout_toLeftOf="@+id/username"
+        android:layout_toStartOf="@+id/username" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/heightPrinter"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/weightPrinter"
+        android:layout_alignLeft="@+id/weightPrinter"
+        android:layout_alignStart="@+id/weightPrinter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:layout_marginTop="25dp"
+        android:id="@+id/agePrinter"
+        android:layout_below="@+id/heightPrinter"
+        android:layout_alignLeft="@+id/heightPrinter"
+        android:layout_alignStart="@+id/heightPrinter" />
+
+</RelativeLayout>

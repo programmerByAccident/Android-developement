@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/sport"
+    android:focusableInTouchMode="true"
+    android:clickable="false"
+    android:id="@+id/photoLeft">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weightButton"
+        android:background="@drawable/register"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trainingButton"
+        android:background="@drawable/training"
+        android:layout_below="@+id/weightButton"
+        android:layout_alignRight="@+id/weightButton"
+        android:layout_alignEnd="@+id/weightButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/foodButton"
+        android:background="@drawable/nutritie"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/trainingButton"
+        android:layout_alignLeft="@+id/trainingButton"
+        android:layout_alignStart="@+id/trainingButton" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/pictures"
+        android:background="@drawable/cameraicon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

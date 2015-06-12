@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/secondatempt">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:background="@drawable/listaaaaaaaapozaaaaaa"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/frameLayout">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="245dp"
+            android:id="@+id/listElemente"
+            android:layout_gravity="center_horizontal|bottom" />
+    </FrameLayout>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/weightText"
+        android:layout_marginLeft="61dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/setsText"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/weightText"
+        android:layout_toRightOf="@+id/weightText"
+        android:layout_toEndOf="@+id/weightText"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/repetitionsText"
+        android:layout_below="@+id/setsText"
+        android:layout_alignLeft="@+id/weightText"
+        android:layout_alignStart="@+id/weightText" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/insertButton"
+        android:layout_above="@+id/frameLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/downdowndown" />
+
+</RelativeLayout>

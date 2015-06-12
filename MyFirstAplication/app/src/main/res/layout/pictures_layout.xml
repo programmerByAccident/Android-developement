@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel"
+    android:background="@drawable/whitegreen">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/photoLeft"
+        android:background="@drawable/uparow"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/takePicture"
+        android:layout_toEndOf="@+id/takePicture"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/takePicture"
+        android:background="@drawable/cameraneagra"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:datePickerMode="spinner"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:id="@+id/left"
+        android:layout_below="@+id/datePicker"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/datePick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:longClickable="false"
+        android:background="@drawable/dateicon" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/saveButton"
+        android:background="@drawable/savenegru"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/datePick"
+        android:layout_toStartOf="@+id/datePick"
+        android:layout_marginRight="65dp"
+        android:layout_marginEnd="65dp" />
+
+</RelativeLayout>
